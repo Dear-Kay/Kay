@@ -1,0 +1,41 @@
+repository: Dear-Kay/Kay
+repository_url: https://dear-kay.github.io/Kay
+
+timezone: Asia/Changsha
+lang: zh_CN
+
+title: 阿凯有点忙
+alias_en: 阿凯有点忙
+alias_cn: 阿凯有点忙
+description: 阿凯有点忙
+keywords: 阿凯有点忙, 阿凯
+url: https://dear-kay.github.io/Kay
+established_at: "2023-3-30"
+
+author: 阿凯
+author_url: https://dear-kay.github.io/Kay
+organization: Kay
+organization_url: https://dear-kay.github.io/Kay
+contact: contact[at]KAY[dot]com
+
+image: /images/logo.png
+logo: /images/logo.png
+logo_dark: /images/logo-dark.svg
+logo_white: /images/logo-white.svg
+
+update_interval: 60000
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor
